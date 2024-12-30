@@ -4,7 +4,7 @@ import vr from "../assets/vr.png";
 
 const Home = () => {
   return (
-    <div className="bg-gray-900 flex flex-col md:flex-row justify-around items-center min-h-screen px-8 pt-1 text-white">
+    <div className="bg-gray-900 flex flex-col md:flex-row justify-around items-center min-h-screen px-8 pt-20 pb-8 text-white">
       
       <div className="text-center md:text-left flex flex-col items-center md:items-start space-y-6">
         <h1 className="text-3xl md:text-6xl font-extrabold leading-tight">
