@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-900"> 
+    <div id="contact" className="flex flex-col items-center justify-center h-screen bg-gray-900"> 
       <div className="w-full max-w-md p-10 rounded-lg shadow-md bg-gray-700"> 
-        <h2 className="text-2xl font-bold text-white mb-6 text-center">Contact Us</h2>
+        <h2 className="text-2xl font-bold text-white mb-6 text-center">Contact</h2>
         <form>
           <div className="mb-4">
             <label htmlFor="fullName" className="block text-sm font-medium text-gray-300">

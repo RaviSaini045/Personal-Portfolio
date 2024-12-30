@@ -5,7 +5,7 @@ import mail from "../assets/mail.jpg";
 
 const Project = () => {
   return (
-    <div className="bg-gray-900 items-center min-h-screen px-8 pt-10 text-white pb-10">
+    <div id = "projects" className="bg-gray-900 items-center min-h-screen px-8 pt-10 text-white pb-10">
       <h2 className="text-4xl font-bold my-8 text-center">Projects</h2>
       <div className="text-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
@@ -32,6 +32,7 @@ const Project = () => {
             <span className="bg-gray-800 text-white px-2 py-1 rounded-sm">C++</span>
             <span className="bg-gray-800 text-white px-2 py-1 rounded-sm">Data Structure</span>
             <span className="bg-gray-800 text-white px-2 py-1 rounded-sm">Algorithms</span>
+            <span className="bg-gray-800 text-white px-2 py-1 rounded-sm">GitHub</span>
           </div>
           <a href="https://github.com/RaviSaini045/Gmail_Messanger" className="bg-blue-400 hover:bg-blue-600 text-white px-4 py-2 rounded-md">View Project</a>
         </div>

@@ -4,14 +4,14 @@ import vr from "../assets/vr.png";
 
 const Home = () => {
   return (
-    <div className="bg-gray-900 flex flex-col md:flex-row justify-around items-center min-h-screen px-8 pt-20 pb-8 text-white">
+    <div id="home" className="bg-gray-900 flex flex-col md:flex-row justify-around items-center min-h-screen px-8 pt-20 pb-8 text-white">
       
       <div className="text-center md:text-left flex flex-col items-center md:items-start space-y-6">
         <h1 className="text-3xl md:text-6xl font-extrabold leading-tight">
           Hello, My name is <span className="text-purple-500">RAVI SAINI</span>
         </h1>
         <div className="text-xl md:text-3xl font-medium">
-          I am a Passionate Frontend Developer
+          I am a Frontend Developer
         </div>
         
         {/* Social Media Links */}
