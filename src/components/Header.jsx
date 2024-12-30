@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="fixed top-0 w-full bg-purple-700 text-white shadow-lg z-10">
       <div className="container mx-auto flex items-center justify-between p-4">
-        <h1 className="text-2xl font-bold">Ravi Saini</h1>
+        <h1 className="text-2xl font-bold">RaviSaini's Portfolio</h1>
         <button
           className="md:hidden text-white focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -38,6 +38,9 @@ const Header = () => {
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6">
+        <a href="#chat" className="hover:text-teal-400">
+            <span className="text-yellow-400 font-bold">Chatbot</span>
+          </a>
           <a href="#home" className="hover:text-teal-400">
             Home
           </a>
