@@ -3,7 +3,6 @@
 This project is a personal resume chatbot created using JavaScript, React, and Tailwind CSS. It features an interactive chatbot that answers questions about my resume, providing insights into my skills, projects, education, and experiences. The chatbot leverages natural language processing to understand and respond to user queries regarding my professional background.
 ## Deployed link
    URL:
-     ```bash
     https://personal-portfolio-amber-six.vercel.app/
 ## Technologies Used
 
